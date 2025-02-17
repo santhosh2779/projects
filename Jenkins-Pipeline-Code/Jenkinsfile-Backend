@@ -79,8 +79,8 @@ pipeline {
         }
         stage('Update Deployment file') {
             environment {
-                GIT_REPO_NAME = "2nd10WeeksofCloudOps-main"
-                GIT_USER_NAME = "CloudTechDevOps"
+                GIT_REPO_NAME = "3tier-nodejs-project"
+                GIT_USER_NAME = "santhosh2779"
             }
             steps {
                 dir('kubernetes-files') {
